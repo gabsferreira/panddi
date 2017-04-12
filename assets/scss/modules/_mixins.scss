@@ -1,5 +1,5 @@
 @mixin background-filter {
-  background: linear-gradient(150deg,rgba(251, 186, 114, 1) 30%,rgba(239, 241, 243, 1) 70%) 0 0/cover fixed,url(/assets/img/cover.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(190deg,rgba(239, 241, 243, 1) 20%,  #2ab7ca 80%) 0 0/cover fixed,url(/assets/img/cover.jpg) center/cover no-repeat fixed;
 }
 @mixin center-absolute {
   display: flex;
@@ -27,7 +27,7 @@
 }
 
 @mixin btn-cover-with-border {
-  @extend btn-cover;
+  @include btn-cover;
   border: 1px solid $gray-lightest;
 }
 
