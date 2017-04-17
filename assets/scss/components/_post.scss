@@ -79,12 +79,12 @@ section.post {
       font-size: .55rem;
       color: $gray-lightest;
       text-transform: uppercase;
-      background-color: rgba($primary-color, .7);
+      background-color: rgba(#fe4242, .7);
       border-radius: .25rem;
       transition: all $aside-animation-time;
 
       &:hover {
-        background-color: rgba($primary-color, 1);
+        background-color: rgba(#fe4242, 1);
       }
     }
   }
